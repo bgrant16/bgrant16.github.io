@@ -14,3 +14,26 @@ section {
 nav ul{
   display: inline-block;
 }
+
+form{
+  background-color: lightgray;
+  display: inline-block;
+  padding: 10px;
+}
+
+h2, h3 {
+  font-size: 16pt;
+}
+
+div iframe{
+  height:300px;
+  width: 450px;
+}
+
+fieldset{
+  border: none;
+}
+
+.buttonholder{
+  text-align: center;
+}
