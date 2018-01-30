@@ -30,6 +30,10 @@ div iframe{
   width: 450px;
 }
 
+.img-div {
+  display: block;
+}
+
 fieldset{
   border: none;
 }
