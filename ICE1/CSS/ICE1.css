@@ -23,6 +23,7 @@ h2, h3 {
 div iframe{
   height:300px;
   width: 450px;
+  border: 0;
 }
 
 section {
