@@ -30,6 +30,10 @@ section {
   margin: auto;
 }
 
+.img-div{
+  display: inline-block;
+}
+
 fieldset{
   border: none;
 }
