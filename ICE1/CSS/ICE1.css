@@ -2,11 +2,6 @@ body{
   font-family: 'Calibri', sans-serif;
 }
 
-section {
-  display: inline-block;
-  margin: auto;
-}
-
 .about-me{
   display: inline-block;
 }
