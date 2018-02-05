@@ -35,7 +35,7 @@ fieldset{
   border: none;
 }
 
-div p{
+div.video p{
   clear: both;
 }
 
