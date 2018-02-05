@@ -50,4 +50,8 @@ aside {
 	background-color: white;
 	height: 460px;
 	width:175px;
+	background-image: url("http://www.literarygenius.info/images/william-shakespeare.jpg");
+	background-size:70%;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
