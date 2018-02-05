@@ -35,6 +35,9 @@ fieldset{
   border: none;
 }
 
+div.video p{
+  clear: both;
+}
 .buttonholder{
   text-align: center;
 }
