@@ -1,0 +1,120 @@
+
+
+@media only screen and (min-width:650px){
+  /*mobile-first*/
+
+  .top-nav{
+    text-align: center;
+  }
+
+  .top-nav ul{
+    border-top: 1px solid red;
+    display: inline-block;
+  }
+  .top-nav ul li{
+    display: inline-block;
+  }
+  .top-nav ul li, .menu-icon{
+  	border-top: none /*CHANGE*/
+  }
+  .top-nav ul li a{
+  	font-size: 1em;
+  	color: #DDDDDA; /*CHANGE*/
+  	text-decoration: none;
+  	padding: .5em 1em;
+  	display: block;
+  	text-align: center;
+    display: block;
+  }
+  .menu-icon a{
+  	font-size: 1em;
+  	color: #DDDDDA; /*CHANGE*/
+  	text-decoration: none;
+  	padding: .5em 1em;
+  	display: block;
+  	text-align: center;
+  }
+  .photo-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .photo-cell{
+    grid-column: span 2;
+  }
+
+  .photo-cell:nth-child(3),
+  .photo-cell:nth-child(4){
+    grid-column: span 1;
+  }
+}
+
+@media only screen and (min-width:1000px){
+  /*mobile-first*/
+
+  .top-nav{
+    position: relative;
+    text-align: right;
+    height: 70px;
+  }
+  .top-nav ul{
+  	list-style-type: none;
+  	padding: 0;
+  	background-color: #211D24; /*CHANGE*/
+  	margin: 0;
+  	display: inline-block;
+    position: absolute
+    right: 0;
+    vertical-align: center;
+  }
+
+  .top-nav .logo {
+    position:absolute
+    left: 0;
+    vertical-align: center;
+  }
+
+  .top-nav .logo a{
+    position: absolute;
+    left: 0;
+  }
+
+  .top-nav ul{
+    border-top: none;
+  }
+
+  .top-nav ul li{
+    display: inline-block;
+  }
+  .top-nav ul li, .menu-icon{
+  	border-top: none; /*CHANGE*/
+  }
+  .top-nav ul li a{
+  	font-size: 1em;
+  	color: #DDDDDA; /*CHANGE*/
+  	text-decoration: none;
+  	padding: .5em 1em;
+  	display: block;
+  	text-align: center;
+    display: block;
+  }
+  .menu-icon a{
+  	font-size: 1em;
+  	color: #DDDDDA; /*CHANGE*/
+  	text-decoration: none;
+  	padding: .5em 1em;
+  	display: block;
+  	text-align: center;
+  }
+  .photo-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .photo-cell{
+    grid-column: span 2;
+  }
+
+  .photo-cell:nth-child(3),
+  .photo-cell:nth-child(4){
+    grid-column: span 1;
+  }
+}
