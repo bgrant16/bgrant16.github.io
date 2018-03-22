@@ -80,9 +80,14 @@ main{
   padding-top: 30px;
 }
 
-.me{
-  padding-bottom:30px;
-  max-width:350px;"
+img.img-fluid.align-middle.me{
+  max-width:350px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+#about-start{
+    padding-top: 30px;
 }
 
 @media query {
