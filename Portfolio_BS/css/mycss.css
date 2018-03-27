@@ -160,6 +160,14 @@ h1{
     font-size: 2.25rem;
   }
 
+  #about-start{
+      padding-top: 0;
+  }
+
+  #me-photo{
+
+  }
+
 }
 
 @media (min-width: 991.98px) {
@@ -182,6 +190,10 @@ h1{
 
   #title{
     font-size: 2.5rem;
+  }
+
+  #me-photo{
+    margin: 0!important;
   }
 }
 
