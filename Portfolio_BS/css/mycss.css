@@ -1,7 +1,8 @@
 #title {
-  font-size: 18px;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 1.75rem;
+    color: #ffffff;
 }
 
 body{
@@ -24,9 +25,19 @@ img.navbar-brand{
   background-color: #1da1f2!important;
 }
 
+h1 {
+  font-size: 1.75rem;
+}
+
+h2{
+  font-size: 1.25rem;
+}
+
+
 #download-resume a{
   color:#1da1f2;
 }
+
 
 footer.container{
   background-color: #1da1f2;
@@ -38,8 +49,7 @@ iframe{
   padding-bottom: 10px;
 }
 
-h1{
-}
+
 
 footer {
   color: #ffffff;
@@ -58,9 +68,7 @@ div.jumbotron{
   color: #ffffff;
 }
 
-#title{
-  color: #ffffff;
-}
+
 
 .card-body{
   background-color: #f8f9fa!important;
@@ -86,10 +94,93 @@ img.img-fluid.align-middle.me{
   border-radius: .25rem;
 }
 
+div.card-body{
+  max-height: 85px;
+}
+
+p.card-text{
+  color: black;
+}
+
 #about-start{
     padding-top: 30px;
 }
 
-@media query {
+.blue{
+  color: #1da1f2;
+}
+
+div.card{
+  max-width: 355px;
+  height: 312px;
+}
+
+div.row div.card{
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+}
+
+#carouselExampleIndicators{
+  max-width: 690px;
+  max-height: 591px;
+}
+
+#carouselExampleIndicators1{
+  max-width: 660px;
+  max-height: 566px;
+}
+
+#carouselExampleIndicators2{
+  max-width: 690px;
+  max-height: 592px;
+}
+
+.resume-area{
+  max-width: 650px;
+}
+
+#me-photo{
+  max-width:355px;
+  max-height: 264px;
+}
+
+@media (min-width: 767.98px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+  #title{
+    font-size: 2.25rem;
+  }
+
+}
+
+@media (min-width: 991.98px) {
+  div.card{
+    min-width: 350px;
+  }
+
+  div.row div.card{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  #title{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1199px;){
 
 }
