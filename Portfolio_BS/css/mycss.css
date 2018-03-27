@@ -102,6 +102,8 @@ p.card-text{
   color: black;
 }
 
+
+
 #about-start{
     padding-top: 30px;
 }
@@ -148,6 +150,28 @@ h1{
   margin-bottom: 2rem;
 }
 
+div.col-xl-4.col-lg-6.col-md-6.col-sm-12{
+  max-width: 368px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.front-sub{
+  font-size: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.py-5{
+  padding-bottom: 0!important;
+}
+
+@media (max-width:575px){
+  .album{
+    padding-left: 15px;
+  }
+}
+
 @media (min-width: 767.98px) {
   h1 {
     font-size: 2.25rem;
@@ -164,8 +188,8 @@ h1{
       padding-top: 0;
   }
 
-  #me-photo{
-
+  .front-sub{
+    font-size: 1.25em;
   }
 
 }
