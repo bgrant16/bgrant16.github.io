@@ -31,8 +31,24 @@ h1 {
 
 h2{
   font-size: 1.25rem;
-  padding-top: 20px; 
+  padding-top: 20px;
 
+}
+
+.carousel-control-prev-icon{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/26/Chevron_left_font_awesome.svg");
+}
+
+.carousel-control-next-icon{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Chevron_right_font_awesome.svg");
+}
+
+.carousel-indicators li{
+  background-color: #D3D3D3;
+}
+
+.carousel-indicators li.active{
+  background-color: #000;
 }
 
 
