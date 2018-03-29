@@ -88,11 +88,11 @@ main{
   padding-top: 30px;
 }
 
-img.img-fluid.align-middle.me{
+/* img.img-fluid.align-middle.me{
   max-width:350px;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
-}
+} */
 
 div.card-body{
   max-height: 85px;
