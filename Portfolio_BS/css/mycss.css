@@ -86,7 +86,11 @@ div.jumbotron{
   color: #ffffff;
 }
 
-
+.btn-primary:hover {
+  background-color: #1da1f2;
+  /* color:#1da1f2;*/
+  /* border: #fff 1px; */
+}
 
 .card-body{
   background-color: #f8f9fa!important;
