@@ -124,7 +124,17 @@ p.card-text{
   color: black;
 }
 
+.nav-link:focus{
+  border: 2px solid white;
+}
 
+btn-primary:focus{
+  border: 2px solid white;
+}
+
+#contact-button:focus{
+  border: 2px solid white;
+}
 
 #about-start{
     padding-top: 30px;
