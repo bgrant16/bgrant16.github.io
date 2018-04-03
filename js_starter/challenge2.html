@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Challenge Two</title>
+
+    <script type="text/javascript">
+		function setHomeAddress(){
+			if (document.getElementById('homepostalcheck').checked){
+				document.getElementById('homeaddress').value = document.getElementById('postaladdress').value;
+				document.getElementById('homeaddress').disabled = true;
+			}
+			else{
+				document.getElementById('homeaddress').value = '';
+				document.getElementById('homeaddress').disabled = false;
+			}
+		}
+    </script>
+</head>
+<body>
+	<h1>Challenge 2</h1>
+	<form action="challenge3.html">
+	<fieldset>
+
+  <legend>Billing Information</legend>
+
+  <p>
+    <label>
+      Postal Address:<br>
+    <textarea name="postaladdress" id="postaladdress"></textarea>
+    </label>
+  </p>
+
+  <p>
+    Home Address:<br>
+    <label>
+       <input type="checkbox" name="homepostalcheck" onclick = "setHomeAddress()" id="homepostalcheck">
+       Same as above
+    </label>
+    <br>
+    <textarea name="homeaddress" id="homeaddress"></textarea>
+  </p>
+
+	<input type = "submit" value = "Go To Challenge 3">
+      </fieldset>
+		</form>
+
+</body>
+</html>
