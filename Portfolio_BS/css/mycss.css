@@ -128,6 +128,10 @@ btn-primary:focus{
   border: 2px solid white;
 }
 
+#contact-button{
+  text-decoration: none;
+}
+
 #contact-button:focus{
   border: 2px solid white;
 }
@@ -142,6 +146,11 @@ btn-primary:focus{
 
 .blue{
   color: #126497;
+}
+
+p > a {
+  color: #126497;
+  text-decoration: underline;
 }
 
 div.card{
