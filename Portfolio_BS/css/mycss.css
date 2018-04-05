@@ -26,7 +26,7 @@ img.navbar-brand{
   height: 40px;
 }
 .bg-dark, .jumbotron{
-  background-color: #1da1f2!important;
+  background-color: #126497!important;
 }
 
 h1 {
@@ -57,12 +57,12 @@ h2{
 
 
 #download-resume a{
-  color:#1da1f2;
+  color:#126497;
 }
 
 
 footer.container{
-  background-color: #1da1f2;
+  background-color: #126497;
   padding: 6px 0;
   max-width: none;
 }
@@ -76,7 +76,7 @@ iframe{
 footer {
   color: #ffffff;
   font-size: 12px;
-  box-shadow: 0 50vh 0 50vh #1da1f2;
+  box-shadow: 0 50vh 0 50vh #126497;
 }
 }
 
@@ -85,14 +85,14 @@ div.jumbotron{
 }
 
 .btn-primary{
-  background-color: #1da1f2;
+  background-color: #126497;
   border-color: #ffffff;
   color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #1da1f2;
-  /* color:#1da1f2;*/
+  background-color: #126497;
+  /* color:#126497;*/
   /* border: #fff 1px; */
 }
 
@@ -141,7 +141,7 @@ btn-primary:focus{
 }
 
 .blue{
-  color: #1da1f2;
+  color: #126497;
 }
 
 div.card{
