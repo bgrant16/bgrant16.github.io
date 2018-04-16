@@ -2,16 +2,6 @@ body{
   background-image: url("../images/sun-pattern.png");
 }
 
-
-/* .single-img{
-  padding:5%;
-  border: blue solid 5px;
-  display: inline-block;
-  height: 200px;
-  /* width: 30%; */
-  /* height: auto;
-} */
-
 .image-block{
 margin: auto;
 display: block;
@@ -23,28 +13,23 @@ display: block;
   margin-right: auto;
 }
 
-img.single-img.colleen{
+.single-img{
   width: 40vw;
   padding:5vw;
   border: blue solid 5px;
   display: block;
   height: 200px;
-  /* width: 30%; */
   height: auto;
   margin-left: auto;
   margin-right: auto;
 
 }
 
-img.single-img.umsi{
-  width: 40vw;
-  padding:5vw;
+/* .single-img{
+  padding:5%;
   border: blue solid 5px;
-  display: block;
+  display: inline-block;
   height: 200px;
   /* width: 30%; */
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-
-}
+  /* height: auto;
+} */
