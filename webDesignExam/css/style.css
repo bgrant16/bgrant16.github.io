@@ -1,0 +1,15 @@
+.image-block{
+  display: inline-block;
+  border: blue solid 5px;
+  padding: 5%;
+}
+
+.button-block{
+  display: block;
+}
+
+img{
+  /* padding:5%; */
+  width: 50%;
+  height: auto;
+}
