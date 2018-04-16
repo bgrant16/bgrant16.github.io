@@ -12,31 +12,39 @@ body{
   /* height: auto;
 } */
 
-/* .image-block{
-  width: 100%;
-  display: inline-block;
-} */
+.image-block{
+margin: auto;
+display: block;
+}
 
 .button-block{
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.single-img.colleen{
   width: 40vw;
   padding:5vw;
   border: blue solid 5px;
-  display: inline-block;
+  display: block;
   height: 200px;
   /* width: 30%; */
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 img.single-img.umsi{
   width: 40vw;
   padding:5vw;
   border: blue solid 5px;
-  display: inline-block;
+  display: block;
   height: 200px;
   /* width: 30%; */
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
 }
