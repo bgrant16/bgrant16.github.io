@@ -1,0 +1,45 @@
+.main_image{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  color: red;
+  margin: auto;
+  text-align: center;
+}
+
+.block{
+  display: inline-block;
+  width: 25%;
+  margin: auto;
+  padding: 3%;
+  background-color: gray;
+}
+
+.p-group{
+  margin: auto;
+  display: block;
+  /* background-color: red; */
+  text-align: center;
+}
+
+@media only screen and (min-width: 650px){
+  body{background-color: blue;
+  }
+  h1, p{
+    color: yellow;
+  }
+
+}
+
+@media only screen and (min-width: 950px){
+  body{
+    background-color: black;
+  }
+  h1, p{
+    color: white;
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Final</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <h1>Final</h1>
+    <div class="">
+      <img class="main_image" src="images/1DB9B2AB-CE81-4B3B-89E6-A9DFA36613F5 2.JPG" alt="Me and KT">
+    </div>
+    <div class="p-container">
+
+    <div class="p-group">
+      <p class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit consectetur rutrum. Fusce suscipit in arcu et ultricies. Aliquam id libero dui.</p>
+      <p class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit consectetur rutrum. Fusce suscipit in arcu et ultricies. Aliquam id libero dui.</p>
+      <p class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit consectetur rutrum. Fusce suscipit in arcu et ultricies. Aliquam id libero dui.</p>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $('.main_image').on('mouseenter', function(){
+        $(this).animate({'opacity':'0.7'}, 100);
+      });
+      $('.main_image').on('mouseleave', function(){
+        $(this).animate({'opacity':'1'}, 100);
+      });
+      $('.main_image').on('click', function(){
+        $(this).hide();
+      });
+      $('.block').on('click', function(){
+        $('.main_image').show();
+        $(this).text('Projects Viewed');
+      });
+    });
+
+// $(document).ready(main);
+
+// function main() {
+//   $('.skillset').hide();
+//   $('.skillset').fadeIn(1000);
+//
+//   $('.projects').hide();
+//
+//   $('.projects-button').on('click', function() {
+//     $(this).toggleClass('active');
+//     $(this).text('Projects Viewed');
+//     $(this).next().slideToggle(400);
+// 	});
+// }
+  </script>
+  </body>
+</html>
