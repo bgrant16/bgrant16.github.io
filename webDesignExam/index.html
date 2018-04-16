@@ -4,19 +4,29 @@
     <meta charset="utf-8">
     <title>Web Design Exam</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
     <h1>William Grant</h1>
-    <div class="image-block">
-      <img src="images/examPic.JPG" alt="Colleen and friends">
-    </div>
-    <div class="image-block">
-      <img src="images/UMSI-logo.jpg" alt="University of Michigan School of Information">
-    </div>
-    <div class="button-block">
-      <button type="button" name="button">Hide Image</button>
-      <button type="button" name="button">Show Image</button>
-    </div>
+    <!-- <div class="image-block"> -->
+      <img class="single-img colleen" src="images/examPic.JPG" alt="Colleen and friends">
 
+      <img class="single-img umsi" src="images/UMSI-logo.jpg" alt="University of Michigan School of Information">
+    <!-- </div> -->
+
+    <div class="button-block">
+      <button class="hide" type="button" name="button">Hide Image</button>
+      <button class="show" type="button" name="button">Show Image</button>
+    </div>
+    <script>
+      $(document).ready(function(){
+        $('.hide').on('click', function(){
+          $('.colleen').hide();
+        });
+        $('.show').on('click', function(){
+          $('.colleen').show();
+        });
+          });
+    </script>
   </body>
 </html>

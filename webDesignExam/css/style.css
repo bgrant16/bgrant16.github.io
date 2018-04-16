@@ -1,15 +1,22 @@
-.image-block{
-  display: inline-block;
+body{
+  background-image: url("../images/sun-pattern.png");
+}
+
+
+.single-img{
+  padding:5%;
   border: blue solid 5px;
-  padding: 5%;
+  display: inline-block;
+  height: 200px;
+  width: 50%;
+  height: auto;
+  margin: 0;
+}
+
+.image-block{
+
 }
 
 .button-block{
   display: block;
-}
-
-img{
-  /* padding:5%; */
-  width: 50%;
-  height: auto;
 }
