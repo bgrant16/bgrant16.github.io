@@ -3,20 +3,40 @@ body{
 }
 
 
-.single-img{
+/* .single-img{
   padding:5%;
   border: blue solid 5px;
   display: inline-block;
   height: 200px;
-  width: 50%;
-  height: auto;
-  margin: 0;
-}
+  /* width: 30%; */
+  /* height: auto;
+} */
 
-.image-block{
-
-}
+/* .image-block{
+  width: 100%;
+  display: inline-block;
+} */
 
 .button-block{
   display: block;
+}
+
+img.single-img.colleen{
+  width: 40vw;
+  padding:5vw;
+  border: blue solid 5px;
+  display: inline-block;
+  height: 200px;
+  /* width: 30%; */
+  height: auto;
+}
+
+img.single-img.umsi{
+  width: 40vw;
+  padding:5vw;
+  border: blue solid 5px;
+  display: inline-block;
+  height: 200px;
+  /* width: 30%; */
+  height: auto;
 }
